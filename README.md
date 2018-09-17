@@ -8,11 +8,10 @@ usage:
 
 Functions and parameters of the VirusTotal class:
 
-$
- FUNCTION   | PARAMETERS                      | RETURN
- ScanFile     path of your file                 JSON
- ReportFile   resource (e.g. hash)              JSON
- DownloadFile resource (e.g. hash)              BYTES
- GetComments  resource (e.g. hash)              TEXT
- PutComment   resource (e.g. hash) / comment    JSON
-$
+
+FUNCTION   | PARAMETERS                      | RETURN
+ScanFile     path of your file                 JSON
+ReportFile   resource (e.g. hash)              JSON
+DownloadFile resource (e.g. hash)              BYTES
+GetComments  resource (e.g. hash)              TEXT
+PutComment   resource (e.g. hash) / comment    JSON
