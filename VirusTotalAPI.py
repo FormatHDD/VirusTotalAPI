@@ -9,7 +9,7 @@ class VirusTotal:
 		self.GET_COMMENTS  = 'https://www.virustotal.com/vtapi/v2/comments/get'
 		self.PUT_COMMENT   = 'https://www.virustotal.com/vtapi/v2/comments/put'
 
-	def ScanFile(self, name)
+	def ScanFile(self, name):
 		params = {'apikey': self.API_KEY}
 		payload = {'file': (name, open(name, "rb"))}
 		return requests.post(self.SCAN_FILE, files=payload, params=params).json()
