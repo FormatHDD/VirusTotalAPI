@@ -9,7 +9,7 @@ usage:
 Functions and parameters of the VirusTotal class:
 
 
-FUNCTION   | PARAMETERS                      | RETURN\n
+FUNCTION   | PARAMETERS                      | RETURN<br />
 ScanFile     path of your file                 JSON\n
 ReportFile   resource (e.g. hash)              JSON\n
 DownloadFile resource (e.g. hash)              BYTES\n
