@@ -12,6 +12,6 @@ Functions and parameters of the VirusTotal class:
 FUNCTION   | PARAMETERS                      | RETURN<br />
 ScanFile   | path of your file               | JSON<br />
 ReportFile |  resource (e.g. hash)            | JSON<br />
-DownloadFile | resource (e.g. hash)            | BYTES<br />
+DownloadFile | resource (e.g. hash)            | BYTES<br /> -- Not working, idk, seems vt removed it lulz
 GetComments | resource (e.g. hash)            | TEXT<br />
 PutComment | resource (e.g. hash) / comment  | JSON
